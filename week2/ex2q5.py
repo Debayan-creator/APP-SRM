@@ -1,0 +1,11 @@
+x = (11, 2, 3, 14)
+y = (13, 5, 22, 10)
+z = (12, 2, 3, 10)
+
+print("Original lists:")
+print(x)
+print(y)
+print(z)
+print("\n Element~wise sum of the said tuples:")
+result = tuple(map(sum, zip(x, y, z)))
+print(result)
